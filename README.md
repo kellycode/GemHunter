@@ -16,6 +16,8 @@ This is the result in WebGL (Same result with config.matchWebGLToCanvasSize true
 
 ![WebGL Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_WebGL.jpg)
 
+Same result in Chrome, Edge and Opera browsers
+
 In the Unity Editor it also doesn't scale properly running in the Game Tab
 
 ![Editor Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_Editor.jpg)
