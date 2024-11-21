@@ -7,8 +7,11 @@ Doesn't Scale Properly
 These are the steps
 
 Loaded the project directly into Unity from the asset store page.
-Change player screen size to 1920 x 1080
-Change project build profile to WebGL
+
+Changed player screen size to 1920 x 1080
+
+Changed project build profile to WebGL
+
 Build and Run
 
 This is the result 
