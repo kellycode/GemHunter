@@ -9,6 +9,8 @@ Loaded the project directly into Unity from the asset store page.
 
 Changed player screen size to 1920 x 1080
 
+Note: If I change the player screen size to a standard phone portrait aspect ratio, it works.  In landscape it doesn't
+
 Changed project build profile to WebGL
 
 Build and Run
