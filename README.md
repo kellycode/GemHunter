@@ -12,7 +12,7 @@ Changed project build profile to WebGL
 
 Build and Run
 
-This is the result in WebGL 
+This is the result in WebGL (Same result with config.matchWebGLToCanvasSize true or false)
 
 ![WebGL Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_WebGL.jpg)
 
