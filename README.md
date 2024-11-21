@@ -1,8 +1,6 @@
 # GEM HUNTER TEST
 
-Doesn't Scale Properly
-
-![WebGL Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_WebGL.jpg)
+Doesn't Scale Properly in WebGL
 
 These are the steps
 
@@ -14,8 +12,10 @@ Changed project build profile to WebGL
 
 Build and Run
 
-This is the result 
+This is the result in WebGL 
 
-![Editor Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_Editor.jpg)
+![WebGL Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_WebGL.jpg)
 
 In the Unity Editor it also doesn't scale properly running in the Game Tab
+
+![Editor Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_Editor.jpg)
