@@ -34,7 +34,7 @@ line ~204
 
 (hard coded assumption of sizes)  
 
-//On Wide screen, we fit vertically
+//On Wide screen, we fit vertically  
 halfSize = (bounds.size.y + 3) * 0.5f + LevelData.Instance.BorderMargin;
 
 I replaced that with a reverse of the portrait mode calculation above...
