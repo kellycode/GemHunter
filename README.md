@@ -32,7 +32,7 @@ In GameManager.cs, in ComputeCamera() it makes an assumption about screen size..
 
 line ~204
 
-(hard coded assumption of sizes)
+(hard coded assumption of sizes)  
 
 //On Wide screen, we fit vertically
 halfSize = (bounds.size.y + 3) * 0.5f + LevelData.Instance.BorderMargin;
