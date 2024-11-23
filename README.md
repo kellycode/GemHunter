@@ -39,7 +39,7 @@ halfSize = (bounds.size.y + 3) * 0.5f + LevelData.Instance.BorderMargin;
 
 I replaced that with a reverse of the portrait mode calculation above...
 
-float screenRatio = Screen.width / (float)Screen.height;
+float screenRatio = Screen.width / (float)Screen.height;  
 halfSize = ((bounds.size.x + 1) * 0.5f + LevelData.Instance.BorderMargin) * screenRatio;
 
 That fixed the layout on both my windows exe and WebGL requirements
