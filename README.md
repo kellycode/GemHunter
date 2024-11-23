@@ -26,3 +26,21 @@ In the Unity Editor it also doesn't scale properly running in the Game Tab and t
 ![Editor Result](https://github.com/kellycode/GemHunter/blob/main/GemHunter_Editor.jpg)
 
 
+I found a fix:
+
+In GameManager.cs, in ComputeCamera() it makes an assumption about screen size...
+
+line ~204
+
+(hard coded assumption of sizes)
+//On Wide screen, we fit vertically
+halfSize = (bounds.size.y + 3) * 0.5f + LevelData.Instance.BorderMargin;
+
+I replaced that with a reverse of the portrait mode calculation above...
+
+float screenRatio = Screen.width / (float)Screen.height;
+halfSize = ((bounds.size.x + 1) * 0.5f + LevelData.Instance.BorderMargin) * screenRatio;
+
+That fixed the layout on both my windows exe and WebGL requirements
+
+
