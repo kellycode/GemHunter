@@ -1,3 +1,4 @@
+20241127: Fixed the layout problems but after testing for a while I simply don't find this game interesting.  Interactions are clumsy
 # GEM HUNTER TEST
 source: https://assetstore.unity.com/packages/essentials/tutorial-projects/gem-hunter-match-2d-sample-project-278941#description
 
